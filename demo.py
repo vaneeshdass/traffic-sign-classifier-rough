@@ -453,7 +453,7 @@ for my_image in my_images:
     index += 1
 
 draw_images(figures, 3, 2, labels)
-
+#
 my_signs = np.array(my_signs)
 my_signs_gray = np.sum(my_signs / 3, axis=3, keepdims=True)
 my_signs_normalized = my_signs_gray / 127.5 - 1
